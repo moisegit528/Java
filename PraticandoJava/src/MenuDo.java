@@ -12,18 +12,22 @@ public class MenuDo {
             System.out.println("0 - Sair");
             System.out.format("Digite a opção que deseja: ");
             opcao = usuario.nextInt();
-            if (opcao==1){
-                System.out.println("Você vai comer a melhor Pizza do Mundo!");
-            } else if (opcao==2) {
-                System.out.println("A coxinha está quentinha!");
-            } else if (opcao==3) {
-                System.out.println("Vou fritar agora!");
-            } else if (opcao==0) {
-                System.out.println("Saiu do Menu.");
-            }else if (opcao!= 1 && opcao != 2 && opcao != 3){
-                System.out.println("Opção Inválida, tente novamente.");
+            switch (opcao){
+                case 1:
+                    System.out.println("Você escolheu Pizza!");
+                    break;
+                case 2:
+                    System.out.println("Você escolheu Coxinha!");
+                    break;
+                case 3:
+                    System.out.println("Você escolheu Pastel!");
+                    break;
+                case 0:
+                    System.out.println("Encerrando...");
+                    break;
+                default:
+                    System.out.println("Opção Inválida, tente novamente!");
             }
         } while (opcao !=0);
-        System.out.println("Programa Encerrado.");
     }
 }
