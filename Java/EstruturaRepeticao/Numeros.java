@@ -17,4 +17,3 @@ public class Numeros {
         System.out.println("A soma de todos os valores é: " + s);
     }
 }
-ssvsdvd
