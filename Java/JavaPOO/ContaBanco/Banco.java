@@ -7,6 +7,14 @@ public class Banco {
     private float saldo;
     private boolean status;
 
+    public void estadoAtual(){
+        System.out.println("----------------------------------------");
+        System.out.println("Conta: " + this.getnumConta());
+        System.out.println("Tipo: " + this.getTipo());
+        System.out.println("Titular: " + this.getTitular());
+        System.out.println("Saldo: " + this.getSaldo());
+        System.out.println("Status: " + this.getStatus());
+    }
 
     public void abrirConta(String tip){
         setTipo(tip);
