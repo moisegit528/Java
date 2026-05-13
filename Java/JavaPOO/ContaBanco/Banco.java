@@ -24,7 +24,7 @@ public class Banco {
         }else if (tip == "cp"){
             saldo = 150;
         }
-
+        System.out.println("Conta aberta com sucesso!");
     }
 
     public void fecharConta(){
@@ -40,6 +40,7 @@ public class Banco {
     public void depositar(float v){
         if (status == true){
             setSaldo(getSaldo() + v);
+            System.out.println("Depósito realizado na conta " + getTitular());
         }else {
             System.out.println("Impossível depositar");
         }
@@ -49,6 +50,7 @@ public class Banco {
         if (status == true){
             if (saldo > v){
                 setSaldo(getSaldo() - v);
+                System.out.println("Saque realizado com sucesso! Saldo atual: " + getSaldo());
             }else {
                 System.out.println("Saldo insuficiente!");
             }
