@@ -84,7 +84,6 @@ public class Banco {
     public int getnumConta(){
         return numConta;
     }
-
     public void setNumConta(int n){
         numConta = n;
     }
