@@ -1,18 +1,24 @@
-package Desafios;
+package Desafios.FuncionamentoEstoque;
 
 public class Estoque {
     private String nome;
     private int quantidade;
     private float preco;
 
+    public Estoque(String nome, int quantidade, float preco){
+        this.nome = nome;
+        this.quantidade = quantidade;
+        this.preco = preco;
+    }
+
     public void mostrarInfo(){
         System.out.println("Produto: " + nome);
-        System.out.println("Preço: " + preco);
+        System.out.println("Preço: " + "R$" + preco + " reais a unidade.");
         System.out.println("Quantidade: " + quantidade);
     }
 
     public void calcularTotal(){
-        System.out.println("Valor total em estoque: " + preco * quantidade);
+        System.out.println("Valor total em estoque: " + preco * quantidade + " reais");
     }
 
     public void adicionarEstoque(int valor){
