@@ -1,58 +1,42 @@
-# 📚 Estudos em Java - Programação Orientada a Objetos
+# ☕ Java
 
-Este repositório reúne exercícios e pequenos projetos que estou **aprendendo e praticando** durante meus estudos de **Java** com foco desde o **Java Básico** a **Programação Orientada a Objetos (POO)**.  
-Aqui registro minha evolução e exemplos práticos dos conceitos que estou explorando.
+Repositório que reúne meus estudos e exercícios desenvolvidos durante a aprendizagem dos fundamentos da linguagem Java.
 
----
+Aqui estão organizados os conteúdos que consolidaram minha base em programação antes do início dos estudos em Spring Boot e desenvolvimento de APIs REST.
+
+## 📚 Conteúdo
+
+- Sintaxe da linguagem
+- Estruturas de decisão e repetição
+- Métodos
+- Arrays e Collections
+- Tratamento de exceções
+- Programação Orientada a Objetos (POO)
+- Exercícios práticos
+- Projetos de fixação
+
+## 🛠️ Tecnologias
+
+- Java
+- IntelliJ IDEA
+- Git
+- GitHub
 
 ## 🎯 Objetivo
-Praticar os principais pilares da POO em Java e aplicar esses conceitos em exercícios que simulam situações reais, como forma de aprendizado contínuo.
+
+Este repositório representa a etapa de formação da minha base em Java. Os conhecimentos adquiridos aqui servem como preparação para o desenvolvimento de aplicações utilizando Spring Boot, APIs REST e bancos de dados.
+
+## 📌 Próxima etapa
+
+Atualmente meus estudos estão direcionados para:
+
+- Spring Boot
+- APIs REST
+- JPA / Hibernate
+- MySQL
+- Arquitetura MVC
+- Boas práticas no desenvolvimento Back-end
 
 ---
 
-## 🧠 Conceitos que estou estudando
-
-- **Classes e Objetos**  
-  Criando classes para representar entidades e instanciando objetos para simular elementos do mundo real.
-
-- **Encapsulamento**  
-  Aprendendo a proteger atributos com modificadores de acesso e métodos getters/setters.
-
-- **Herança**  
-  Praticando como uma classe pode herdar características de outra, reutilizando código.
-
-- **Polimorfismo**  
-  Explorando métodos sobrescritos e sobrecarregados para diferentes comportamentos.
-
-- **Abstração**  
-  Estudando classes abstratas e interfaces para generalizar comportamentos.
-
----
-
-## 📂 Estrutura do repositório
-
-JAVA/  
-
- ├── src/  
- │    ├── exemplos/        # Exercícios básicos  
- │    ├── poo/             # Projetos aplicando pilares da POO  
- │    └── utils/           # Classes auxiliares  
-
- ├── docs/                 # Anotações e materiais de estudo  
-
- ├── .gitignore  
-
- └── README.md  
-
-
-
----
-
-## 🛠️ Ferramentas utilizadas
-
-- **Java**  
-- **IntelliJ / NetBeans**  
-- **GitHub Desktop**  
-
-
-
+**Desenvolvido por Moisés Castro**
